@@ -8,7 +8,7 @@ RUN add-apt-repository -y ppa:chris-lea/node.js
 RUN apt-get update && apt-get install -y \
     build-essential git htop tmux pv \
     postgresql libpq-dev \
-    python3-pip3 python3-dev libjpeg-dev zlib1g-dev \
+    python3-pip python-dev libjpeg-dev zlib1g-dev \
     nodejs
 
 RUN npm install -g grunt-cli bower
